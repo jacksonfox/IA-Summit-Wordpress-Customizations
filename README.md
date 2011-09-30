@@ -51,7 +51,7 @@ We've created a variety of functions that can be used to display information abo
 * get_speaker_link($speaker_ID, $print = false)           // Get a link to the page for the speaker with ID
 * get_speaker_name($speaker_ID, $print = false)           // Get the name of the speaker with ID
 * has_speaker_links()                                     // Does the current speaker in the loop have external links?
-* the_speaker_links($before = "<li>", $after = "</li>")   // Output external links for the current speaker in the loop
+* the_speaker_links($before = "\<li\>", $after = "\</li\>")   // Output external links for the current speaker in the loop
 * find_speaker_sessions($speaker_ID)                      // Return an array of sessions for the speaker with ID
                                                         
 ### Utility Functions                                   
