@@ -1,14 +1,16 @@
 # IA Summit Customizations for Wordpress
 
 This plugin creates two new custom post types:
-- ias_sessions
-- ias_speakers
+
+* ias_sessions
+* ias_speakers
 
 These allow us to manage sessions and speakers via Wordpress, and makes it easy to associate sessions and speakers. It was originally created for the IA Summit 2011 website.
 
 ## Sessions (ias_sessions)
 
 Sessions have the following metadata:
+
 * Tracks (tags, can have multiple values)
 * Topics (tags, can have multiple values)
 * Date & Time (categories, can have multiple values)
@@ -22,6 +24,7 @@ _Note on Date & Time:_ We found it easiest to create top-level categories for ea
 ## Speakers (ias_speakers)
 
 Speakers have the following metadata:
+
 * External Links (up to three, each can have a label and URL)
 * Featured Image (headshot)
 
